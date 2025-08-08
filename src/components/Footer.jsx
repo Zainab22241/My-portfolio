@@ -47,7 +47,7 @@ const Footer = () => {
           transition={{ duration: 0.5 }}
           >
           <img
-  src="assets/zainab--logo.png"
+  src="assets/zainab--Logo.png"
   alt="Zainab Logo"
   className="h-20 w-auto object-contain transition-transform duration-300 hover:scale-105"
 />
