@@ -82,7 +82,7 @@ const Header = ({ scrollY }) => {
               <Sparkles className="absolute -bottom-2 -left-2 w-8 h-8 text-blue-300/20 animate-pulse-slow" />
             </div>
          <img
-  src="assets/zainab--logo.png"
+  src="/assets/zainab--Logo.png"
   alt="Zainab Logo"
   className="h-20 w-auto object-contain transition-transform duration-300 hover:scale-105"
 />
