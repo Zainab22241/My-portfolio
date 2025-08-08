@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
 
+ import axios from 'axios'; // make sure this is at the top
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -12,19 +13,26 @@ const Contact = () => {
   const [submitStatus, setSubmitStatus] = useState('idle');
   const [statusMessage, setStatusMessage] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
+ 
 
-    // Simulate submission delay
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setStatusMessage('Your message has been sent successfully!');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 1500);
-  };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus('idle');
+
+  try {
+    const res = await axios.post(' ', formData);
+    setIsSubmitting(false);
+    setSubmitStatus('success');
+    setStatusMessage(res.data.message || 'Your message has been sent successfully!');
+    setFormData({ name: '', email: '', subject: '', message: '' });
+  } catch (error) {
+    setIsSubmitting(false);
+    setSubmitStatus('error');
+    setStatusMessage('Something went wrong. Please try again.');
+    console.error(error);
+  }
+};
 
   const handleChange = (e) => {
     setFormData({

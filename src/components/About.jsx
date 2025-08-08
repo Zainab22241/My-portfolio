@@ -37,11 +37,14 @@ const About = () => {
             <div className="space-y-6">
               <div className="prose prose-lg text-gray-300">
                 <p className="text-lg leading-relaxed">
-                 I’m Zainab Murtaza, a Full Stack & WordPress Developer who loves turning ideas into functional, beautiful websites. I help businesses and entrepreneurs build online spaces that are fast, secure, and easy to use.
+      I am Zainab Murtaza, a Full Stack Developer with a strong focus on UI/UX design. Skilled in tools like Figma and modern development technologies, I create secure, efficient, and visually polished web solutions tailored to business needs. I collaborate closely with clients to ensure each project reflects their brand and goals.
+
                  
                 </p>
                 <p className="text-lg leading-relaxed">
-               I enjoy solving problems, learning new technologies, and working closely with clients to create sites that truly fit their needs. My goal is always to deliver clean, user-friendly, and reliable web solutions that help people grow online.
+          I enjoy solving complex problems and staying current with emerging technologies. My commitment is to deliver clean, user-friendly, and scalable websites that offer lasting value and help clients grow their online presence.
+
+
                 </p>
               </div>
 
