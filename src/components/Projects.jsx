@@ -19,7 +19,7 @@ const projects = [
     category: "Frontend",
     tags: ["React", "CSS", "Framer Motion"],
     links: { demo: "https://github.com/Zainab22241/Dental-Clinic" },
-    image: "assets/dental-clinic.png",
+    image: "assets/dental-Clinic.png",
   },
   {
     title: "Blood Donation Website",
@@ -40,7 +40,7 @@ const projects = [
       demo:
         " https://www.figma.com/proto/g9jqrgC3Cyb5nb8YVX8a31/BizAxis?node-id=83-5966&t=9WnXSwv11tx9kADV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     },
-    image: "assets/bizaaxis.png",
+    image: "assets/bizaAxis.png",
   },
    {
   title:"SkillCraft",
@@ -52,7 +52,7 @@ const projects = [
     demo:
       " https://www.figma.com/proto/zbJwnQkT7RE3mBtai8oTFs/3d-desigin?node-id=30-2&t=KrecMkxfJtnBIDOD-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   },
-  image: " assets/skillcraft.png",
+  image: " assets/skillCraft.png",
 },
   {
   title: "Glow",
