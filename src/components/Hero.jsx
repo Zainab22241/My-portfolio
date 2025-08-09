@@ -56,7 +56,7 @@ const Hero = () => {
                 href: "https://mail.google.com/mail/?view=cm&to=zainabmurtaza204@gmail.com",
                 label: "Email",
               },
-              { icon: FileText, href: "/assets/Zainab_CV_Web Developer..pdf" },
+              { icon: FileText, href: "/assets/Zainab_Murtaza.pdf" },
             ].map((social, index) => (
               <a
                 key={index}
@@ -82,7 +82,7 @@ const Hero = () => {
             </button>
 
             <a
-              href="/assets/Zainab_CV_Web Developer..pdf"
+              href="/assets/Zainab_Murtaza.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
